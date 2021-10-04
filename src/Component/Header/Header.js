@@ -8,13 +8,29 @@ const Header = () => {
   return (
     <>
       {/* navbar  */}
-      <div className="contaner-fluid p-0">
+      <div className=" contaner-fluid p-0">
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
           <Container>
-            <Navbar.Brand href="/">React Elearn</Navbar.Brand>
+            <Navbar.Brand href="/">
+              <img
+                src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/wbvkod4mhwryj9ce42vo"
+                width="50px"
+                alt=""
+              />
+            </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="me-auto navbar">
+                <NavLink
+                  activeStyle={{
+                    fontWeight: "bold",
+                    color: "red",
+                  }}
+                  className="child-nav"
+                  to="/Home"
+                >
+                  Home
+                </NavLink>
                 <NavLink
                   activeStyle={{
                     fontWeight: "bold",
@@ -31,9 +47,9 @@ const Header = () => {
                     color: "red",
                   }}
                   className="child-nav"
-                  to="/Contact"
+                  to="/About"
                 >
-                  Contact
+                  About
                 </NavLink>
                 <NavLink
                   activeStyle={{
@@ -41,7 +57,7 @@ const Header = () => {
                     color: "red",
                   }}
                   className="child-nav"
-                  to="/Contact 1"
+                  to="/Contact"
                 >
                   Contact
                 </NavLink>

@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  padding: 5px;
+  backdrop-filter: blur(50px);
+  box-shadow: 0 8px 24px 0 rgba(31, 38, 135, 0.37);
+  font-family: "Poppins", sans-serif;
+  z-index: -100;
+}
+* :hover {
+  backdrop-filter: backdrop-filter(50px);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+.instructor-pic {
+  width: 40px;
+  height: 40px;
+}
+
+li {
+  margin-left: 3px;
+}

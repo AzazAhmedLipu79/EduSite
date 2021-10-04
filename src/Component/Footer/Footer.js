@@ -10,27 +10,27 @@ const Footer = () => {
         <footer class="text-center text-lg-start text-white">
           <section class="d-flex justify-content-between p-4">
             <div class="me-5">
-              <span>Get connected with us on social networks:</span>
+              <span>Check Us On Social Media:</span>
             </div>
 
             <div>
-              <a href="a.com" class="text-white me-4">
-                <i class="fab fa-facebook-f"></i>
+              <a href="/Contact" class="text-white me-4">
+                <i class="bi bi-facebook"></i>
               </a>
-              <a href="a.com" class="text-white me-4">
-                <i class="fab fa-twitter"></i>
+              <a href="/Contact" class="text-white me-4">
+                <i class="bi bi-twitter"></i>
               </a>
-              <a href="a.com" class="text-white me-4">
-                <i class="fab fa-google"></i>
+              <a href="/Contact" class="text-white me-4">
+                <i class="bi bi-google"></i>
               </a>
-              <a href="a.com" class="text-white me-4">
-                <i class="fab fa-instagram"></i>
+              <a href="/Contact" class="text-white me-4">
+                <i class="bi bi-instagram"></i>
               </a>
-              <a href="a.com" class="text-white me-4">
-                <i class="fab fa-linkedin"></i>
+              <a href="/Contact" class="text-white me-4">
+                <i class="bi bi-linkedin"></i>
               </a>
-              <a href="a.com" class="text-white me-4">
-                <i class="fab fa-github"></i>
+              <a href="/Contact" class="text-white me-4">
+                <i class="bi bi-github"></i>
               </a>
             </div>
           </section>
@@ -39,64 +39,64 @@ const Footer = () => {
             <div class="container text-center text-md-start mt-5">
               <div class="row mt-3">
                 <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                  <h6 class="text-uppercase fw-bold">Company name</h6>
+                  <h6 class="text-uppercase fw-bold">Physics Of Master</h6>
                   <hr class="mb-4 mt-0 d-inline-block mx-auto" />
                   <p>
-                    Here you can use rows and columns to organize your footer
-                    content. Lorem ipsum dolor sit amet, consectetur adipisicing
-                    elit.
+                    Learning is the source of human progress. It has the power
+                    to transform our world from illness to health, from poverty
+                    to prosperity, from conflict to peace.
                   </p>
                 </div>
 
                 <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-                  <h6 class="text-uppercase fw-bold">Products</h6>
+                  <h6 class="text-uppercase fw-bold">Courses</h6>
                   <hr class="mb-4 mt-0 d-inline-block mx-auto" />
                   <p>
                     <a href="#!" class="text-white">
-                      MDBootstrap
+                      Web Development
                     </a>
                   </p>
                   <p>
                     <a href="#!" class="text-white">
-                      MDWordPress
+                      Artificial Inttelligent
                     </a>
                   </p>
                   <p>
                     <a href="#!" class="text-white">
-                      BrandFlow
+                      Machine Learning
                     </a>
                   </p>
                   <p>
                     <a href="#!" class="text-white">
-                      Bootstrap Angular
+                      Game Development
                     </a>
                   </p>
                 </div>
 
                 <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                  <h6 class="text-uppercase fw-bold">Useful links</h6>
+                  <h6 class="text-uppercase fw-bold">Short links</h6>
                   <hr
                     class="mb-4 mt-0 d-inline-block mx-auto"
                     // style="width: 60px; background-color: #7c4dff; height: 2px"
                   />
                   <p>
                     <a href="#!" class="text-white">
-                      Your Account
+                      Dashboard
                     </a>
                   </p>
                   <p>
                     <a href="#!" class="text-white">
-                      Become an Affiliate
+                      Contact
                     </a>
                   </p>
                   <p>
                     <a href="#!" class="text-white">
-                      Shipping Rates
+                      Success
                     </a>
                   </p>
                   <p>
                     <a href="#!" class="text-white">
-                      Help
+                      Forum & Help
                     </a>
                   </p>
                 </div>
@@ -105,10 +105,11 @@ const Footer = () => {
                   <h6 class="text-uppercase fw-bold">Contact</h6>
                   <hr class="mb-4 mt-0 d-inline-block mx-auto" />
                   <p>
-                    <i class="fas fa-home mr-3"></i> New York, NY 10012, US
+                    <i class="fas fa-home mr-3"></i> Noahkhali, Mars
                   </p>
                   <p>
-                    <i class="fas fa-envelope mr-3"></i> info@example.com
+                    <i class="fas fa-envelope mr-3"></i>{" "}
+                    info@physics.of.master.com
                   </p>
                   <p>
                     <i class="fas fa-phone mr-3"></i> + 01 234 567 88
@@ -122,9 +123,9 @@ const Footer = () => {
           </section>
 
           <div class="text-center p-3">
-            © 2020 Copyright:
-            <a class="text-white" href="https://mdbootstrap.com/">
-              MDBootstrap.com
+            © 2021 Copyright:
+            <a class="text-white" href="https://web.programming-hero.com">
+              Programming Hero
             </a>
           </div>
         </footer>

@@ -1,0 +1,10 @@
+.navbar {
+  text-align: center;
+}
+.child-nav {
+  font-size: 15px;
+
+  margin-left: 7px;
+  text-decoration: none;
+  color: white;
+}

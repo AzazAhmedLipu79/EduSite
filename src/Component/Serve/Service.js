@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import SingleCourse from "../SingleCourse/SingleCourse";
-
+// Service or All Courses Page
 const Course = () => {
   const [courses, setCourses] = useState([]);
   useEffect(() => {

@@ -11,6 +11,7 @@ import Course from "../Course/Course";
 import About from "../About/About";
 
 const Home = () => {
+  // Home Page
   return (
     <>
       <Router>

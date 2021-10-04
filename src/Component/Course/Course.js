@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import SingleCourse from "../SingleCourse/SingleCourse";
 import { NavLink } from "react-router-dom";
-
+// Course Api Loading Component
 const Course = () => {
   const [courses, setCourses] = useState([]);
   useEffect(() => {

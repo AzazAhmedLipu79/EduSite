@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./Contact.css";
 const Contact = () => {
   return (
+    // Contact Form
     <>
       <div class="container contact-form">
         <div class="contact-image">

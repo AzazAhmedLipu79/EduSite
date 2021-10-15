@@ -10,7 +10,7 @@ const Hero = () => {
           <div class="row row align-items-center">
             <div class="col-lg-5 offset-lg-1 order-lg-1">
               <img
-                src="https://i.ibb.co/Y07jPRC/undraw-Online-learning-re-qw08.png"
+                src="https://miro.medium.com/max/1400/1*uao_Z81afV37k6i9IomybQ.png"
                 class="img-fluid"
                 alt="Web Development"
               />

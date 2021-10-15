@@ -1,10 +1,12 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./SingleCourse.css";
+import { Link } from "react-router-dom";
 // Fetured Courses
 const SingleCourse = (props) => {
   const {
     img,
+    key,
     name,
     category,
     price,
@@ -16,7 +18,7 @@ const SingleCourse = (props) => {
 
   return (
     // Implement in Card
-    <div className=" col-lg-4 col-md-6 d-flex align-items-stretch">
+    <div className=" col-lg-4 col-md-6 py-2 d-flex align-items-stretch">
       <div className="course-item border border-1 p-1 m-1">
         <img src={img} className="img-fluid rounded" alt="..." />
         <div className="course-content">
@@ -46,9 +48,11 @@ const SingleCourse = (props) => {
             </div>
           </div>
         </div>
-        <button class="mt-2 btn btn-danger rounded" type="button">
-          Enroll Now
-        </button>
+        <Link to={`/Course/${key}`}>
+          <button class="mt-2 btn btn-danger rounded" type="button">
+            Enroll {category} Course
+          </button>
+        </Link>
       </div>
     </div>
   );
